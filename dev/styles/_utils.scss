@@ -1,0 +1,22 @@
+$blue: #436e9b;
+$light: #cfcfcf;
+$dark: #1d110b;
+$dark-beige: #906B47;
+$red: rgb(241, 74, 116);
+$light-font: lighten($light, 20);
+
+.caret {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    .fas {
+        font-size: 65px;
+        line-height: 100px;
+        color: rgba($light, 0.5);
+        transition: all 0.3s;
+        &:hover {
+            font-size: 85px;
+        }
+    }
+}

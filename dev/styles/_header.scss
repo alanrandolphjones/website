@@ -1,0 +1,33 @@
+.header {
+    min-height: 500px;
+    height: 100vh;
+    background-image: url(../assets/cn-tower.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    @media (max-width: 650px) {
+        background-image: linear-gradient(rgba($dark, 0.5), rgba($dark, 0.5)), url(../assets/cn-tower.jpg);
+    }
+    &__container {
+        width: 100%;
+        margin: 0 auto;
+        @media (max-width: 650px) {
+            width: 90%;
+        }
+    }
+    &__h3 {
+        font-family: 'Roboto', sans-serif;    
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+        margin: 0;
+        text-transform: none;
+        @media (max-width: 650px) {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+* {
+    color:$light-font;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 70px;
+	font-weight: 800;
+	line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    @media (max-width: 650px) {
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 50px 0 10px 0;
+    margin: 0 0 0 250px;
+    position: relative;
+    z-index: -1;
+    display: inline-block;
+    &:after {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 50px;
+        content: ' ';
+        border-bottom: 5px solid $light-font;
+    }
+    @media (max-width: 940px) {
+        margin-left: 50px;
+    }
+    @media (max-width: 650px) {
+        font-size: 35px;
+    }
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+.h3--side {
+    font-size: 80px;
+    line-height: 80px;
+    transform: rotate(-90deg);
+    text-align: right;
+    transform-origin: bottom;
+    position: absolute;
+    right: -14%;
+    bottom: 50%;
+    margin: 0;
+    color: rgba($light-font, 0.3)
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: $dark;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.work__h3, .work__paragraph, .work__skill, .work__link {
+    color: $dark;
+}

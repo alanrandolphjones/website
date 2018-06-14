@@ -1,0 +1,56 @@
+.skills {
+    position: relative;
+    .h3--side {
+        right: -8%;
+        @media (max-width: 940px) {
+            display: none;
+        }
+    }
+    &__ul {
+        margin: 50px 150px 50px 300px;
+        display: flex;
+        flex-flow: row wrap;
+        @media (max-width: 940px) {
+            margin: 50px auto;
+            width: 90%;
+        }
+    }
+    &__li {
+        width: 20%;
+        color: $light-font;
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        i {
+            display: block;
+            transition: all .3s ease;
+            margin-top: 20px;
+        }
+        img {
+            height: 50.5px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        p {
+            margin: 10px 0 20px 0;
+            display: block;
+            font-family: 'Roboto', sans-serif;
+            font-size: 17px;
+            opacity: 0;
+            transition: all .3s ease;
+            @media (max-width: 650px) {
+                opacity: 1;
+            }
+        }
+        &:hover p {
+            opacity: 1;
+        }
+        &:active p {
+            opacity: 1;
+        }
+        @media (max-width: 650px) {
+            width: 33.33%;
+        }
+    }
+}

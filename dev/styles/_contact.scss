@@ -1,0 +1,144 @@
+.contact {
+    width: 100%;
+    position: relative;
+    min-height: 600px;
+    h2 {
+        margin-top: 5px;
+        padding-top: 20px;
+    }
+    &__h3 {
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 40px;
+        @media (max-width: 650px) {
+            font-size: 30px;
+        }
+    }
+    .h3--side {
+        @media (max-width: 940px) {
+            display: none;
+        }
+    }
+    &__container {
+        margin: 30px 100px 50px 350px;
+        display: flex;
+        @media (max-width: 1100px) {
+            margin-left: 250px;
+        }
+        @media (max-width: 940px) {
+            margin: 30px auto 50px auto;
+            width: 85%;
+        }
+        @media (max-width: 650px) {
+            flex-flow: column wrap;
+            align-items: center;
+        }
+    }
+    &__findMe {
+        width: 50%;
+        @media (max-width: 650px) {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+    &__form {
+        width: 50%;
+        @media (max-width: 650px) {
+            width: 100%;
+        }
+    }
+    &__email {
+        display: flex;
+        font-family: 'Roboto', serif;
+        font-size: 20px;
+        padding-bottom: 50px;
+        a {
+            display: flex;
+            align-items: center;
+            padding-bottom: 5px;
+            &:hover {
+                color: $blue;
+                i {
+                    color: $blue;
+                }
+            }
+        }
+        i {
+            font-size: 30px;
+            padding: 0 20px 0 0;
+        }
+    }
+    &__social {
+        display: flex;
+        li a {
+            font-size: 30px;
+            padding: 15px;
+            &:first-child {
+                padding-left: 0;
+            }
+            i:hover {
+                color: $blue;
+            }
+        }
+    }
+    &__form {
+        label {
+            display: block;
+            font-size: 18px;
+            line-height: 12px;
+        }
+        input {
+            display: block;
+            margin: 20px 0;
+            padding: 0 5px;
+            width: 75%;
+            line-height: 40px;
+            color: $light-font;
+            background: transparent;
+            border: 1px solid $blue;
+            transition: all .3s ease;
+            &:focus {
+                border-bottom: 5px solid $blue;
+            }
+            &[type=submit] {
+                background: $light-font;
+                color: $dark;
+                border-bottom: none;
+                margin-left: 25%;
+                height: 40px;
+                width: 25%;
+                transition: all .3s ease;
+                &:hover {
+                    background: $blue;
+                    color: $light-font;
+                }
+                &:active {
+                    background: darken($blue, 20);
+                }
+                @media (max-width: 650px) {
+                    margin-left: 0;
+                }
+            }
+            @media (max-width: 650px) {
+                width: 100%;
+            }
+        }
+        textarea {
+            display: block;
+            margin: 20px 0;
+            height: 100px;
+            width: 75%;
+            padding: 0 5px;
+            line-height: 40px;
+            color: $light-font;
+            background: $dark;
+            border: 1px solid $blue;
+            transition: all .3s ease;
+            &:focus {
+                border-bottom: 5px solid $blue;
+            }
+            @media (max-width: 650px) {
+                width: 100%;
+            }
+        }
+    }
+}
