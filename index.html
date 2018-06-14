@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Alan Jones: Web Developer</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto|Playfair+Display:400,400i" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+	 crossorigin="anonymous">
+	<link rel="icon" href="public/assets/package.ico">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="public/styles/style.css">
+</head>
+<body>
+	<nav class="nav">
+		<div id="nav-icon4">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul class="nav__ul">
+			<li class="nav__li">
+				<a class="nav__link" href="#home">
+					<i class="fas fa-home"></i>
+					<h4  class="nav__h4">Home</h4>
+				</a>
+			</li>
+			<li class="nav__li">
+				<a class="nav__link" href="#about">
+					<i class="fas fa-question"></i>
+					<h4 class="nav__h4">About</h4>
+				</a>
+			</li>
+			<li class="nav__li">
+				<a class="nav__link" href="#work">
+					<i class="fas fa-clipboard-list"></i>
+					<h4 class="nav__h4">Work</h4>
+				</a>
+			</li>
+			<li class="nav__li">
+				<a class="nav__link" href="#skills">
+					<i class="fas fa-star"></i>
+					<h4 class="nav__h4">Skills</h4>
+				</a>
+			</li>
+			<li class="nav__li">
+				<a class="nav__link" href="#contact">
+					<i class="fas fa-at"></i>
+					<h4 class="nav__h4">Contact</h4>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+	<header class="header" id="home">
+		<div class="header__container">
+			<h1 class="header__h1">Alan Jones</h1>
+			<h3 class="header__h3">I am a front-end web developer in Toronto, Canada.</h3>
+		</div>
+		<div class="square"><a href="#about"></a></div>
+		<div class="caret caret--down">
+			<a href="#about"><i class="fas fa-angle-down"></i></a>
+		</div>
+	</header>
+	<main>
+		<section class="about clearfix" id="about">
+			<h2>About me</h2>
+			<div class="about__container">
+				<div class="about__imgDiv">
+					<img class="about__img" src="public/assets/headshot.jpg" alt="headshot">
+				</div>
+				<div class="about__content">
+					<h3 class="about__h3">Hello! My name is Alan.</h3>
+					<p>I am a front-end developer in Toronto, Canada with a background in writing and film. I love the Internet, making web applications, watching movies and listening to Drake. I'm a natural-born problem-solver, which comes in handy when I'm building websites and creating memorable user experiences.</p>
+					<p>Prior to web development, I worked as a writer and editor. You can find my journalism in The Globe and Mail, VICE, Maisonneuve Magazine and many other publications. I also have two (!) degrees in film studies and worked as an editor for Screen Rant. In my off-hours, you can probably find me online sharing <span class="cage">the latest Nicolas Cage memes. <img src="https://www.placecage.com/gif/100/100" alt=""></span></p>
+				</div>
+			</div>
+			<h3 class="h3--side">About me</h3>
+		</section>
+
+		<section class="work" id="work">
+			<h2 class="wow slideInRight">Work</h2>
+			<div class="work__inner">
+				<div class="work__project">
+					<div class="work__imgDiv">
+						<a href="https://public-flix.firebaseapp.com/" target="_blank">
+							<img class="work__img" src="public/assets/public-flix-laptop.png" alt="Public Flix">
+						</a>
+					</div>
+					<div class="work__content">
+						<h3 class="work__h3">Public Flix</h3>
+						<ul class="work__links">
+							<li class="work__link">
+								<a href="https://public-flix.firebaseapp.com/" target="_blank">Live Link</a>
+							</li>
+							<li class="work__link">
+								<a href="https://github.com/alanrandolphjones/public-flix" target="_blank">Github</a>
+							</li>
+						</ul>
+						<p class="work__paragraph decription">Public Flix allows users to stream feature films in the public domain, completely free of charge, with data and video embeds made available by the Internet Archive API.</p>
+						<ul class="work__skills">
+							<li class="work__skill">React</li>
+							<li class="work__skill">JavaScript</li>
+							<li class="work__skill">APIs</li>
+							<li class="work__skill">HTML5</li>
+							<li class="work__skill">CSS3</li>
+							<li class="work__skill">Sass</li>
+							<li class="work__skill">Responsive Design</li>
+						</ul>
+					</div>
+					<div class="work__mobileImgDiv">
+						<a href="https://public-flix.firebaseapp.com/" target="_blank">
+							<img class="work__mobileImg" src="public/assets/public-flix-laptop.png" alt="Public Flix">
+						</a>
+					</div>
+				</div>
+				<div class="work__project" id="project2">
+					<div class="work__content work__content--left">
+						<h3 class="work__h3">Library Events</h3>
+						<ul class="work__links">
+							<li class="work__link">
+								<a href="https://library-events-project6.firebaseapp.com/" target="_blank">Live Link</a>
+							</li>
+							<li class="work__link">
+								<a href="https://github.com/library-team/library-project" target="_blank">Github</a>
+							</li>
+						</ul>
+						<p class="work__paragraph">Using an API made available by the Toronto Public Library through their Open Data policy, this app allows users to login, browse and save library events happening nearby. Developed with Hannah Crump and Avi Craimer.</p>
+						<ul class="work__skills">
+							<li class="work__skill">React</li>
+							<li class="work__skill">Firebase</li>
+							<li class="work__skill">APIs</li>
+							<li class="work__skill">JavaScript</li>
+							<li class="work__skill">HTML5</li>
+							<li class="work__skill">CSS3</li>
+							<li class="work__skill">Sass</li>
+							<li class="work__skill">Paired Programming</li>
+							<li class="work__skill">Responsive Design</li>
+							<li class="work__skill">Floats Only</li>
+						</ul>
+					</div>
+					<div class="work__imgDiv work__imgDiv--mobile">
+						<a href="https://library-events-project6.firebaseapp.com/" target="_blank">
+							<img class="work__img work__img--mobile" src="public/assets/library-smartphone.png" alt="Library Events">
+						</a>
+					</div>
+					<div class="work__mobileImgDiv">
+						<a href="https://library-events-project6.firebaseapp.com/" target="_blank">
+							<img class="work__mobileImg" src="public/assets/library-laptop.png" alt="Library Events">
+						</a>
+					</div>
+				</div>
+				<div class="work__project">
+					<div class="work__imgDiv">
+						<a href="https://alanrandolphjones.github.io/drizzy-gems/" target="_blank">
+							<img class="work__img" src="public/assets/drizzy-gems.png" alt="Drizzy Gems">
+						</a>
+					</div>
+					<div class="work__content">
+						<h3 class="work__h3">Drizzy Gems</h3>
+						<ul class="work__links">
+							<li class="work__link">
+								<a href="https://alanrandolphjones.github.io/drizzy-gems/" target="_blank">Live</a>
+							</li>
+							<li class="work__link">
+								<a href="https://github.com/alanrandolphjones/drizzy-gems" target="_blank">Github</a>
+							</li>
+						</ul>
+						<p class="work__paragraph">This quiz-style app returns a Drake lyric to use as a caption on Instagram based on the user's answers to four questions about their photograph.</p>
+						<ul class="work__skills">
+							<li class="work__skill">JavaScript</li>
+							<li class="work__skill">jQuery</li>
+							<li class="work__skill">HTML5</li>
+							<li class="work__skill">CSS3</li>
+							<li class="work__skill">Responsive Design</li>
+						</ul>
+					</div>
+					<div class="work__mobileImgDiv">
+						<a href="https://github.com/alanrandolphjones/drizzy-gems" target="_blank">
+							<img class="work__mobileImg" src="public/assets/drizzy-gems.png" alt="Drizzy Gems">
+						</a>
+					</div>
+				</div>
+
+				<div class="work__project">
+					<div class="work__content work__content--left">
+						<h3 class="work__h3">Simpleflex</h3>
+						<ul class="work__links">
+							<li class="work__link">
+								<a href="https://alanrandolphjones.github.io/simpleflex/" target="_blank">Live</a>
+							</li>
+							<li class="work__link">
+								<a href="https://github.com/alanrandolphjones/simpleflex" target="_blank">Github</a>
+							</li>
+						</ul>
+						<p class="work__paragraph">Created a fully responsive website from this PSD design.</p>
+						<ul class="work__skills">
+							<li class="work__skill">Responsive Design</li>
+							<li class="work__skill">HTML5</li>
+							<li class="work__skill">CSS3</li>
+							<li class="work__skill">Sass</li>
+						</ul>
+					</div>
+					<div class="work__imgDiv work__imgDiv--mobile">
+						<a href="https://alanrandolphjones.github.io/simpleflex/" target="_blank">
+							<img class="work__img work__img--mobile" src="public/assets/simpleflex-smartphone.png" alt="Simpleflex">
+						</a>
+					</div>
+					<div class="work__mobileImgDiv">
+						<a href="https://alanrandolphjones.github.io/simpleflex/" target="_blank">
+							<img class="work__mobileImg" src="public/assets/simpleflex-laptop.png" alt="Simpleflex Design">
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- </div> -->
+			<h3 class="h3--side">Work</h3>
+		</section>
+		<section class="skills" id="skills">
+			<h2 class="wow slideInRight">Skills</h2>
+			<ul class="skills__ul">
+				<li class="skills__li">
+					<i class="devicon-html5-plain"></i>
+					<p>HTML5</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-css3-plain"></i>
+					<p>CSS3</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-sass-original"></i>
+					<p>Sass</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-javascript-plain"></i>
+					<p>JavaScript</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-jquery-plain"></i>
+					<p>jQuery</p>
+				</li>
+				<li class="skills__li">
+					<img src="public/assets/es6.svg" alt="ES6 Logo">
+					<p>ES6</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-react-original"></i>
+					<p>React</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-visualstudio-plain"></i>
+					<p>Visual Studio</p>
+				</li>
+				<li class="skills__li">
+					<img src="public/assets/sublime-text.svg" alt="Sublime Text Logo">
+					<p>Sublime</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-git-plain"></i>
+					<p>Git</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-github-plain"></i>
+					<p>GitHub</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-gulp-plain"></i>
+					<p>Gulp</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-babel-plain"></i>
+					<p>Babel</p>
+				</li>
+				<li class="skills__li">
+					<img src="public/assets/firebaseLogo.png" alt="Firebase Logo">
+					<p>Firebase</p>
+				</li>
+				<li class="skills__li">
+					<i class="devicon-wordpress-plain"></i>
+					<p>WordPress</p>
+				</li>
+			</ul>
+			<h3 class="h3--side">Skills</h3>
+		</section>
+		<section class="contact" id="contact">
+			<h2 class="wow slideInRight">Contact</h2>
+			<div class="contact__container">
+				<div class="contact__findMe">
+					<h3 class="contact__h3">Find Me</h3>
+					<div class="contact__email">
+						<a href="mailto:alan@alanjones.ca"><i class="far fa-envelope"></i> alan@alanjones.ca</a>
+					</div>
+					<ul class="contact__social">
+						<li><a href="https://twitter.com/alanjones_TO"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/alanrandolphjones/"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/alanrandolphjones"><i class="fab fa-github"></i></a></li>
+						<li><a href="https://medium.com/@alanrandojones"><i class="fab fa-medium"></i></a></li>
+					</ul>
+				</div>
+				<div class="contact__form">
+					<h3 class="contact__h3">Reach Out</h3>
+					<form method="POST" action="http://www.focuspocus.io/magic/jones.alan21@gmail.com">
+						<label for="name">Name</label>
+						<input type="text" name="name" placeholder="Ric Flair">
+						<label for="email">Email</label>
+						<input type="text" name="email" placeholder="great_hair@email.com">
+						<label for="message">Message</label>
+						<textarea name="message" placeholder="Leave your message here"></textarea>
+						<input type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+			<h3 class="h3--side">Contact</h3>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; Alan Jones 2018 / Photo: Pam Lau</p>
+	</footer>
+	<script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=' crossorigin='anonymous'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script src="public/scripts/main.js"></script>
+</body>
+</html>
