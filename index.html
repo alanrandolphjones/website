@@ -55,19 +55,18 @@
 	</nav>
 
 	<header class="header" id="home">
-		<div class="header__container">
+		<div class="header__container wow slideInRight">
 			<h1 class="header__h1">Alan Jones</h1>
 			<h3 class="header__h3">I am a front-end web developer in Toronto, Canada.</h3>
 		</div>
-		<div class="square"><a href="#about"></a></div>
 		<div class="caret caret--down">
 			<a href="#about"><i class="fas fa-angle-down"></i></a>
 		</div>
 	</header>
 	<main>
 		<section class="about clearfix" id="about">
-			<h2>About me</h2>
-			<div class="about__container">
+			<h2 class="wow slideInRight">About me</h2>
+			<div class="about__container clearfix">
 				<div class="about__imgDiv">
 					<img class="about__img" src="public/assets/headshot.jpg" alt="headshot">
 				</div>
@@ -78,6 +77,11 @@
 				</div>
 			</div>
 			<h3 class="h3--side">About me</h3>
+			<div class="caret">
+				<a href="#work">
+					<i class="fas fa-angle-down"></i>
+				</a>
+			</div>
 		</section>
 
 		<section class="work" id="work">
@@ -215,7 +219,11 @@
 					</div>
 				</div>
 			</div>
-			<!-- </div> -->
+			<div class="caret">
+				<a href="#skills">
+					<i class="fas fa-angle-down"></i>
+				</a>
+			</div>
 			<h3 class="h3--side">Work</h3>
 		</section>
 		<section class="skills" id="skills">
@@ -283,6 +291,11 @@
 				</li>
 			</ul>
 			<h3 class="h3--side">Skills</h3>
+			<div class="caret">
+				<a href="#skills">
+					<i class="fas fa-angle-down"></i>
+				</a>
+			</div>
 		</section>
 		<section class="contact" id="contact">
 			<h2 class="wow slideInRight">Contact</h2>
@@ -303,9 +316,9 @@
 					<h3 class="contact__h3">Reach Out</h3>
 					<form method="POST" action="http://www.focuspocus.io/magic/jones.alan21@gmail.com">
 						<label for="name">Name</label>
-						<input type="text" name="name" placeholder="Ric Flair">
+						<input type="text" name="name" placeholder="Ric Flair" autocomplete="name">
 						<label for="email">Email</label>
-						<input type="text" name="email" placeholder="great_hair@email.com">
+						<input type="text" name="email" placeholder="great_hair@email.com" autocomplete="email">
 						<label for="message">Message</label>
 						<textarea name="message" placeholder="Leave your message here"></textarea>
 						<input type="submit" value="Send">

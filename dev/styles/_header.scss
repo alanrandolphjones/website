@@ -6,7 +6,7 @@
     background-attachment: fixed;
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items: flex-end;
     @media (max-width: 650px) {
         background-image: linear-gradient(rgba($dark, 0.5), rgba($dark, 0.5)), url(../assets/cn-tower.jpg);
     }

@@ -1,4 +1,5 @@
 .about {
+    min-height: 100vh;
     position: relative;
     &__h3 {
         line-height: 50px;
@@ -58,15 +59,16 @@
             margin-right: 0;
         }
         @media (max-width: 650px) {
-            width: 100%;
+            width: 90%;
             margin: 0 auto;
+            float: none;
         }
     }
 }
 
 .cage {
     position: relative;
-    color: darken($light, 10);
+    color: white;
     img {
         display: none;
         width: 100px;
@@ -76,7 +78,7 @@
         top: 100%;
     }
     &:hover {
-        color: white;
+        color: $light;
         img {
             display: block;
         }

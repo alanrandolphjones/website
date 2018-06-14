@@ -6,10 +6,8 @@ $red: rgb(241, 74, 116);
 $light-font: lighten($light, 20);
 
 .caret {
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
     .fas {
         font-size: 65px;
         line-height: 100px;
@@ -18,5 +16,9 @@ $light-font: lighten($light, 20);
         &:hover {
             font-size: 85px;
         }
+    }
+    @media (max-width: 860px) {
+        visibility: hidden;
+        height: 0;
     }
 }

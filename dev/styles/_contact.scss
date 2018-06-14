@@ -2,6 +2,8 @@
     width: 100%;
     position: relative;
     min-height: 600px;
+    height: 100vh;
+    // padding-bottom: 50px;
     h2 {
         margin-top: 5px;
         padding-top: 20px;
@@ -10,7 +12,7 @@
         font-family: 'Poppins', sans-serif;
         margin-bottom: 40px;
         @media (max-width: 650px) {
-            font-size: 30px;
+            display: none;
         }
     }
     .h3--side {
@@ -94,7 +96,7 @@
             line-height: 40px;
             color: $light-font;
             background: transparent;
-            border: 1px solid $blue;
+            border: 1px solid $light;
             transition: all .3s ease;
             &:focus {
                 border-bottom: 5px solid $blue;
@@ -102,7 +104,7 @@
             &[type=submit] {
                 background: $light-font;
                 color: $dark;
-                border-bottom: none;
+                border: none;
                 margin-left: 25%;
                 height: 40px;
                 width: 25%;
@@ -131,7 +133,7 @@
             line-height: 40px;
             color: $light-font;
             background: $dark;
-            border: 1px solid $blue;
+            border: 1px solid $light;
             transition: all .3s ease;
             &:focus {
                 border-bottom: 5px solid $blue;

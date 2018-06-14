@@ -1,5 +1,5 @@
 * {
-    color:$light-font;
+    color:$light;
 }
 
 h1 {
@@ -31,13 +31,15 @@ h2 {
         right: 0;
         width: 50px;
         content: ' ';
-        border-bottom: 5px solid $light-font;
+        border-bottom: 5px solid $light;
     }
     @media (max-width: 940px) {
         margin-left: 50px;
     }
     @media (max-width: 650px) {
         font-size: 35px;
+        text-align: left;
+        margin-left: 20px;
     }
 }
 
